@@ -13,7 +13,7 @@
     "compile": "tsc",
     "fix": "gts fix",
     "prepare": "npm run compile",
-    "sync": "node scripts/sync.js",    // ← 这里添加同步命令
+    "sync": "node scripts/sync.js",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
     "posttest": "npm run lint"
